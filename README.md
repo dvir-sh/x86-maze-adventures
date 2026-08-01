@@ -18,3 +18,8 @@ The core feature of this project is a built-in map editor with full import/expor
 ## About this project
 
 This was built entirely in x86 Assembly, by hand, before LLMs were even remotely competent at writing Assembly code. As a result, it's roughly 90% human-written - no AI co-pilot to lean on for this one.
+
+## 🛠️ Technical Specs
+* **Architecture:** 16-bit x86 Real Mode Assembly (`TASM` / `TLINK`)
+* **Graphics:** VGA Mode 13h (`320x200` @ 256 colors) via direct VRAM writing at segment `0xA000`
+* **I/O & Interrupts:** Custom keyboard handling, mouse integration (`INT 33h`), and custom file binary serialization (`INT 21h`) for map export/import
