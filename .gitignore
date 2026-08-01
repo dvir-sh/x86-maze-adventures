@@ -1,0 +1,25 @@
+# TASM / TLINK build artifacts
+*.obj
+*.OBJ
+*.map
+*.MAP
+*.lst
+*.LST
+*.tmp
+*.TMP
+
+# OS junk
+.DS_Store
+Thumbs.db# TASM / TLINK build artifacts
+*.obj
+*.OBJ
+*.map
+*.MAP
+*.lst
+*.LST
+*.tmp
+*.TMP
+
+# OS junk
+.DS_Store
+Thumbs.db
